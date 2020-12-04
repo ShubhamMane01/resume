@@ -1,0 +1,110 @@
+.header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgray;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 10px;
+
+    }   
+    .header2
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: darkgrey;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .btn
+    {
+        width: 170px;
+        background-color: #07a349;
+        color: white;
+        height: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        border-radius: 5px;
+
+
+        
+    } 
+    button:hover{
+        background-color: #09d961;
+      
+    }
+    .container
+    {
+        background-color: #5c635f;
+        height: 45px;
+        
+    }
+    ul{
+        background-color: #3f4542;
+        height: 53px;
+        margin-top: 0px;
+    }
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    /* a:hover{
+        background-color: aliceblue;
+        color: black;
+        font-size: 20px;
+    } */
+
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 250px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 2px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      .gead{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+        font-size: 60px; color: #021726;
+        text-shadow: 2px 2px skyblue;
+        padding-left: 6%;
+      }
+     
+
+      
